@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9df2d05a-8fbc-40c9-a9c7-64f47f0dffee" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/01_getting_started.css" afterPath="$PROJECT_DIR$/01_getting_started/01_getting_started.css" />
+      <change beforePath="$PROJECT_DIR$/01_getting_started.html" afterPath="$PROJECT_DIR$/01_getting_started/01_getting_started.html" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,7 +18,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="01_getting_started.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_getting_started.html">
+        <entry file="file://$PROJECT_DIR$/01_getting_started/01_getting_started.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
               <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
@@ -28,15 +30,15 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+            <state relative-caret-position="225">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="01_getting_started.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01_getting_started.css">
+        <entry file="file://$PROJECT_DIR$/01_getting_started/01_getting_started.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
               <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
@@ -116,6 +118,11 @@
               <item name="mobile_arbeitsauftrag" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobile_arbeitsauftrag" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mobile_arbeitsauftrag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobile_arbeitsauftrag" type="462c0819:PsiDirectoryNode" />
+              <item name="01_getting_started" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -131,6 +138,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\NTB\IuK_3\IuK_III_M\mobile_arbeitsauftrag\01_getting_started" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -185,7 +197,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="01_getting_started.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mobile_arbeitsauftrag/01_getting_started.html" />
+    <configuration name="01_getting_started.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/mobile_arbeitsauftrag/01_getting_started/01_getting_started.html" />
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -261,12 +273,12 @@
       <option name="presentableId" value="Default" />
       <updated>1537533040177</updated>
       <workItem from="1537533041766" duration="605000" />
-      <workItem from="1538134211793" duration="2008000" />
+      <workItem from="1538134211793" duration="2149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2613000" />
+    <option name="totallyTimeSpent" value="2754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="2582" height="1416" extended-state="6" />
@@ -319,7 +331,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_getting_started.css">
+    <entry file="file://$PROJECT_DIR$/01_getting_started/01_getting_started.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
@@ -327,7 +339,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_getting_started.html">
+    <entry file="file://$PROJECT_DIR$/01_getting_started/01_getting_started.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
@@ -337,8 +349,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="56" lean-forward="false" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
+        <state relative-caret-position="225">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
       </provider>
