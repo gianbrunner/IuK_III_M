@@ -1,0 +1,76 @@
+.wrapper {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100%;
+}
+
+.header {
+  background: tomato;
+}
+
+.footer {
+  background: lightgreen;
+}
+
+.main {
+  text-align: left;
+  background: deepskyblue;
+}
+
+.aside-1 {
+  background: gold;
+}
+
+.aside-2 {
+  background: hotpink;
+}
+
+body {
+  padding: 2em;
+}
+
+/* Aufgabe 2: Navigation & Kontakt Nebeneinander darstellen  */
+@media screen and (min-width: 600px){
+    .aside-1{
+        width: 50%;
+    }
+    aside-2{
+        width: 50%;
+    }
+}
+
+/* Aufgabe 3: Studierende, Navigation & Kontakt Nebeneinander darstellen  */
+
+/* Aufgabe 4: Tabellenspalten ausblenden*/
+@media screen and (max-width: 600px){
+    .hide{
+        display: none;
+    }
+}
+
+/* Aufgabe 5: Animation*/
+@keyframes colorswitch{
+    from {background-color: deepskyblue;}
+    to {background-color: white;}
+}
+
+@media screen and (min-width: 800px){
+    .animation{
+        animation-name: colorswitch;
+        animation-duration: 3s;
+        background-color: white;
+    }
+}
