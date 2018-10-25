@@ -39,11 +39,22 @@
     </nav>
     <div class="container" width="600px" height="600px">
         <h4>User: giandamme</h4>
-        <h5>Durchschnittlicher Score: 324km</h5>
-    
+        <h5>Dein Score: 39km </h5>
+        <h5>Durchschnittlicher Score: 151km</h5>
+    <!-- Leaflet -->
+    </div> 
+    <div class="container">
+            <div class="row">
+                <div class="col"> 
+                    <div id="mapid" style="width: 100%; height: 300px; position: relative;"></div>
+                </div>
+            </div>
+            </div>
+    <div class="container">
         <canvas id="myChart"></canvas>
     </div>  
     <!-- Import externe Scripts -->
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js" integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA==" crossorigin=""></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
@@ -51,5 +62,6 @@
     <!-- Eigene Scripts -->
     <script src="main.js"></script>
     <script src="chart.js"></script>
+    <script src="leaflet_userinformation.js"></script>
 </body>
 </html>
